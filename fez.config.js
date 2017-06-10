@@ -21,11 +21,8 @@ export default {
         bower: {
             available: true,
             js: [{
-                target: "a-vendor-jquery.js",
-                contain: ["**/jquery.js"]
-            }, {
-                target: "b-vendor-bootstrap.js",
-                contain: ["**/bootstrap.js"]
+                target: "a-vendor-jquery-bootstrap.js",
+                contain: ["**/jquery.js", "**/bootstrap.js"]
             }],
             css: [{
                 target: "vendor-bootstrap.css",
