@@ -1,48 +1,52 @@
 {
-    "name": "FEZ DEMO",
-    "authors": [
-        "furic <furic@qq.com>"
-    ],
-    "description": "Bower第三方工具库自动化管理",
-    "main": "",
-    "license": "MIT",
-    "homepage": "",
-    "private": true,
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "bootstrap": "^3.3.7",
-        "font-awesome": "^4.7.0",
-        "vue": "^2.2.4"
+  "name": "fez demo",
+  "authors": [
+    "furic <furic@qq.com>"
+  ],
+  "description": "Bower第三方工具库自动化管理",
+  "license": "MIT",
+  "homepage": "https://github.com/furic-zhao/fez-demo-vue",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies":
+  {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "vue": "^2.2.4"
+  },
+  "overrides":
+  {
+    "bootstrap":
+    {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/**.*"
+      ]
     },
-    "overrides": {
-        "bootstrap": {
-            "main": [
-                "dist/css/bootstrap.css",
-                "dist/js/bootstrap.js",
-                "dist/fonts/**.*"
-            ]
-        },
-        "font-awesome": {
-            "main": [
-                "css/font-awesome.css",
-                "fonts/FontAwesome.otf",
-                "fonts/fontawesome-webfont.eot",
-                "fonts/fontawesome-webfont.svg",
-                "fonts/fontawesome-webfont.ttf",
-                "fonts/fontawesome-webfont.woff",
-                "fonts/fontawesome-webfont.woff2"
-            ]
-        },
-        "vue": {
-            "main": [
-                "dist/vue.js"
-            ]
-        }
+    "font-awesome":
+    {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/FontAwesome.otf",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2"
+      ]
+    },
+    "vue":
+    {
+      "main": [
+        "dist/vue.js"
+      ]
     }
+  }
 }
