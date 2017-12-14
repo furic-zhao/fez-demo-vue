@@ -1,7 +1,11 @@
 {
-  "name": "fez demo vue",
-  "version": "1.0.0",
+  "name": "fez-demo-vue",
+  "version": "1.0.1",
   "description": "基于FEZ构建的Vue单文件组件形式的模块化开发示例",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furic-zhao/fez-demo-vue"
+  },
   "keywords": "vue,单文件组建,模块化",
   "homepage": "https://github.com/furic-zhao/fez",
   "license": "MIT",
