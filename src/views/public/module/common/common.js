@@ -1,6 +1,6 @@
 import Q from 'q'
 
-import ApiData from 'public/demo-data'
+import ApiData from 'views/public/demo-data'
 
 export default {
     navList: () => {

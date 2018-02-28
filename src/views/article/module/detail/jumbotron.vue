@@ -12,7 +12,7 @@
 </template>
 <script>
 import Service from './service'
-import urlParam from 'public/utils/url-param'
+import urlParam from 'views/public/utils/url-param'
 export default {
     data() {
             return {

@@ -5,11 +5,11 @@
     </fez-page>
 </template>
 <script>
-import fezPage from 'public/module/common/page.vue'
+import fezPage from 'views/public/module/common/page.vue'
 import fezJumbotron from './module/detail/jumbotron.vue'
 import fezDetail from './module/detail/index.vue'
 
-import urlParam from 'public/utils/url-param'
+import urlParam from 'views/public/utils/url-param'
 
 export default {
     data() {

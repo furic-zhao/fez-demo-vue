@@ -5,7 +5,7 @@
     </fez-page>
 </template>
 <script>
-import fezPage from 'public/module/common/page.vue'
+import fezPage from 'views/public/module/common/page.vue'
 import fezJumbotron from './module/jumbotron/index.vue'
 import fezListing from './module/listing/index.vue'
 
