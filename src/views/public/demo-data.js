@@ -197,7 +197,7 @@ let common = {
         href: "list.html"
     }],
 
-    footerText: "© 2017 FEZ 前端模块化工程开发框架 Created by Furic.zhao"
+    footerText: "©2017-2018 FEZ前端模块化工程开发框架 Created by Furic.zhao"
 }
 
 export default {

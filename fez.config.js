@@ -28,5 +28,9 @@ export default {
         contain: ["**/font-awesome.css"]
       }]
     }
+  },
+
+  svgSymbol: {
+    available: true
   }
 }
